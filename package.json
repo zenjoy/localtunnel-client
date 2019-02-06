@@ -2,7 +2,7 @@
   "author": "Roman Shtylman <shtylman@gmail.com>",
   "name": "localtunnel-zenjoy",
   "description": "expose localhost to the world",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "test": "mocha --ui qunit --reporter list --timeout 10000 -- test/index.js"
   },
   "bin": {
-    "lt": "./bin/client"
+    "lt-zenjoy": "./bin/client"
   },
   "main": "./client.js"
 }
