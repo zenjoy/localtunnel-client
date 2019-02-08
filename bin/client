@@ -26,6 +26,9 @@ var argv = require('yargs')
         alias: 'port',
         describe: 'Internal http server port',
     })
+    .option('scheme', {
+        describe: 'Internal http server scheme',
+    })
     .option('print-requests', {
         describe: 'Print basic request info',
     })
@@ -45,6 +48,7 @@ var opt = {
     host: argv.host,
     port: argv.port,
     local_host: argv['local-host'],
+    scheme: argv.scheme,
     subdomain: argv.subdomain,
 };
 
